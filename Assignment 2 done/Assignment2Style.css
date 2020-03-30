@@ -1,0 +1,78 @@
+body{
+	background-color: black;
+}
+.main
+{
+	font-family: cursive;
+	color: white;
+
+
+}
+
+
+.title
+{
+	font-family: cursive;
+	color: red;
+}
+p.ph1
+{
+	background: green;
+}
+
+table.timeTable
+{
+	border:red solid 3px;
+}
+
+table th.tableHead
+{
+	background-color: orange;
+}
+
+table tr.breaks
+{
+	color: black;
+	background-color: yellow;
+
+}
+.firstImage
+{
+	margin-top: 3%;
+	margin-left: 13%;
+	border: solid blue 3px;
+	position: relative;
+	background-color: blue;
+	border-radius: 20%;
+}
+
+.secondImage
+{
+	margin-top: 3%;
+	margin-left:5%;
+	border: solid green 3px;
+	position: relative;
+	background-color: blue;
+	border-radius: 40%;	
+}
+
+.thirdImage
+{
+	margin-top: 3%;
+	margin-left: 5%;
+	border: solid yellow 3px;
+	position: relative;
+	background-color: blue;
+	border-radius: 40%;	
+}
+
+.forthImage
+{
+	margin-top: 3%;
+	margin-left: 5%;
+	margin-right: 12%;
+	border: solid brown 3px;
+	position: relative;
+	background-color: blue;
+	border-radius: 20%;	
+}

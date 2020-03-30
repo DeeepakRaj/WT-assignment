@@ -1,0 +1,26 @@
+body
+{
+	border: solid red 2px;
+	margin-right: ;
+	background: black;
+	font-family: cursive;
+	color: white;
+}
+.first
+{
+	color: blue;
+	background:yellow;
+}
+
+.main
+{
+	width: 100%;
+	margin-right: 5%;
+}
+
+.main input[text = text]
+{
+	margin-right: 200%;
+}
+
+.input input[type=text] 

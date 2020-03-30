@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Assignment 4</title>
+	<script type="text/javascript">
+		
+
+
+	</script>
+
+	<style type="text/css">
+		body
+		{
+			background-color: black;
+			color: white;
+			font-family: cursive;
+			border: dashed yellow 5px;
+		}
+		.head
+		{
+			color: red;
+			text-align: center;
+			text-decoration: underline;	
+		}
+
+		.image
+		{
+			text-align: center;
+		}
+
+		.input
+		{
+			border: solid red 1px;
+			margin-left:25%;
+			width: 	50%;
+			height: 
+		
+
+		}
+
+		.input input[type=text] 
+			{
+				width: 98.7%;
+			}
+		.input input[type=Date] 
+			{
+				width: 98.7%;
+			}
+
+		#submitBtn
+		{
+			margin-left: 45%;
+		}
+
+		#input
+		{
+			width:50%;
+			
+		}
+		#input input[type=number]
+		{
+			
+				width: 98.8%;
+		}
+		p.i
+		{
+			text-align: right;
+			color: red;
+			font-size: 10px;
+		}
+	</style>
+
+<script type="text/javascript">
+	
+	
+/*	var array,arraylength,i;
+	array = ["First_Name","Last_Name","birthday","mNumber","mNumber","checkbox","textarea"];	
+		
+		arraylength = array.length;
+
+		function valid()
+		{
+			var array,arraylength,i;
+	array = ["First_Name","Last_Name","birthday","mNumber","mNumber","checkbox","textarea"];	
+		
+		arraylength = array.length;
+			var field = document.forms["form"]
+			for(i = 0 ; i< arraylength; i++)
+				{
+					["i"].value;
+			if(field == "" || field == null)  
+			{
+				alert(i" cannot be left empty");
+			}
+		}
+*/
+	function valid()
+		{
+			
+			var field = document.forms["form"]["First_Name"].value;
+			if(field == "" || field == null)  
+			{
+				alert("First_Name cannot be left empty");
+			}
+		}
+
+
+
+	</script>
+
+</head>
+<body>
+
+		<h2 class="head">Register With Us  </h2>	
+	<form name="form" id="registerForm">
+		<div class="image" >
+			<img src="https://i.ibb.co/1n5GQL9/images.jpg" alt="images">
+		</div>
+
+		<p align="center">Note: <br>validation is applied to First Name using onblur().
+		<div class="input" >
+			First Name : 
+			<input type="text"  name="First_Name" onblur="valid()" required=""> 
+			<br>
+
+			Last Name :
+			<input type="text"  name="Last_Name"  required>
+			
+		</div>
+			<br>
+		<div class="input">
+			Date Of Birth :
+			<input type="Date" name="birthday" id="birthday"  required>
+		</div>
+			<br>
+		<div class="input" id="input" >
+			Mobile No. : 
+			<input type="text" name="mNumber" id="mNumber"  required="">
+
+		</div>
+				
+	<br>
+	
+	<div class="input" required  name="gender"> 
+	Select your Gender : <br>
+		<input type="radio" name="genderM" value="male"> Male
+		<input type="radio" name="genderF" value="female"> Female
+		<input type="radio" name="genderO" value="other"> Other
+
+	</div>
+		
+	<br>
+	<div class="input" name="checkbox">
+	Choose things you know : <br>
+		<input type="checkbox" name="favouritesChckBoxP" value="Programming" > Programming
+
+		<input type="checkbox" name="favouritesChckBoxD" value="Designing" > Designing
+			<br>
+		<input type="checkbox" name="favouritesChckBoM" value="Management" > Management
+
+		<input type="checkbox" name="favouritesChckBoxT" value="Teching" > Teching
+	 </div>
+	<br>
+
+	<div class="input" >	
+	Brief us About you :<br>
+	<textarea name="txtarea" cols="47%" rows="10"> </textarea>
+	</div>
+
+	<div>
+		<input type="button" name="Submit" id="submitBtn" value="Submit">
+	</div>
+	</form>
+	
+</body>
+</html>

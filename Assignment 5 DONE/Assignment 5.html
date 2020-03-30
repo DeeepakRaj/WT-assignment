@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewpoint" content="width=device-width, initial scale=1.0">
+<head>
+	<title>Assignment 5</title>
+	<link rel="stylesheet" type="text/css" href="Assignment_5_Styles.css">
+</head>
+<body>
+	<div class="first">
+	<h1  align="center">National Workshop on Web Technology</h1>
+	</div>
+<form name="Workshop">
+	<div class="main">
+<fieldset>
+	<legend>
+		Personal Information
+	</legend>
+	Name :<input type="text" name="fName" placeholder="First Name" id="fName"> 
+	
+		<input type="text" name="lName" placeholder="Last Name" id="lName">
+		<br> <br>
+	Contact  : <input type="text" name="mobNumber" placeholder="Mobile Number" id="mNumber">
+	
+		<input type="text" name="teleNumber" placeholder="Telephone Number" id="mNumber">
+		<br> <t> <br>
+		<input type="email" name="emailId" placeholder="Email Address" id="emailId" >
+<br>
+<br>
+	Address : <input type="text" name="line1" placeholder="Street Address line 1" id="line1">
+	<br>
+	<br>
+			  <input type="text" name="line2" placeholder="Street Address line 2" id="line2">
+
+			  <input type="text" name="Landmark" placeholder="Landmark" id="Landmark">
+
+			  <input type="text" name="pincode" placeholder="Pincode" id="pincode">
+
+			  <br> <br>
+
+			  <input type="text" name="city" placeholder="City" id="city">
+
+			  <input type="text" name="state" placeholder="State" id="state">
+
+			  <input type="text" name="country" placeholder="Country" id="country">
+
+			  <br>
+			  <br>
+			  Please provide us one of your ID Proof:<br><br>
+			  <input type="file" name="">
+
+</fieldset>
+</div>
+<fieldset>
+	<legend>
+		Workshop Details
+	</legend>
+	<div class="main2">
+		Desination : <select id="Desination">
+			<option selected hidden value=""></option>
+			<option value="Student"> Student </option>
+			<option value="Faculty"> Faculty </option>
+			<option value="Professional"> Professional </option>
+			<option value="Company"> Company Representative </option>
+			
+		</select>
+		<br>
+		<br>
+		Technology you are interested in<br>
+		<input type="checkbox" name="interested" id="interested"> HTML 4/5
+
+		<input type="checkbox" name="interested" id="interested"> CSS 
+
+		<input type="checkbox" name="interested" id="interested"> PHP
+
+		<input type="checkbox" name="interested" id="interested"> Angular
+		<br>
+
+		<input type="checkbox" name="interested" id="interested"> Java Script
+
+		<input type="checkbox" name="interested" id="interested"> Jquery
+
+		<input type="checkbox" name="interested" id="interested"> Other
+		<input type="text" name="otherinterested" id="otherinterested">
+
+		<br>
+		<br>
+		Number of People participating (max 5) : <input type="number" id="persons" name="persons" min="1" max="5">
+		<br>
+		Note : Workshop fees is Rs.500 per person 
+		<br>
+		<br>
+
+		Is this your First Workshop? <br>Yes<input type="radio" name="rdbtn1" value="yes"> No <input type="radio" name="rdbtn2" value="No">
+		<br>
+		<br>
+
+		Why you want attend this workshop ? <br>
+		<textarea id="txtarea1" rows="4" cols="50"></textarea>
+		<br>
+		<br>
+		<input type="submit" name="submitBtn" id="submitBtn">
+
+</fieldset>
+	</div>
+		
+</form>
+
+</body>
+</html>
